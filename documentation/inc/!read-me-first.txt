@@ -1,0 +1,1 @@
+Please, read 'Demo Content (XML file)' chapter in theme documentation.

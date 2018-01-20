@@ -1,0 +1,619 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Association Theme - Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen, projection">
+</head>
+
+
+<body>
+<div id="container">
+  <div id="toc" class="">
+    <div id="container2">
+      <div class="container-left">
+        <ol>
+          <li><a href="#container">Theme Overview</a></li>
+          <li><a href="#install">Theme Installation </a></li>
+          <li><a href="#setup">Default Setup</a></li>
+          <li><a href="#homesetup">Homepage Setup</a>
+            <ul>
+              <li><a href="#pagebuilder">Layout Creator</a></li>
+              <li><a href="#blocksscreens">Blocks Screenshots</a></li>
+              <li><a href="#blog">Blog Template</a></li>
+            </ul>
+          </li>
+          <li><a href="#themesetup">Admin panel</a></li>
+          <li><a href="#templates">Custom Templates</a></li>
+          <li><a href="#widgets">Custom Widgets</a></li>
+          <li><a href="#images">Images & Galleries</a></li>
+          <li><a href="#formats">Post Settings &amp; Post Formats</a></li>
+          <li><a href="#customposts">Custom Posts (MC Slider, Info , Staff)</a></li>
+          <li><a href="#custom-menu">Custom Menu</a></li>
+          <li><a href="#shortcodes">Required Plugins</a></li>
+          <li><a href="#plugins">Other Plugins</a></li>
+          <li><a href="#xml">Demo Content (XML file)</a></li>
+          <li><a href="#styling-import">Styling Import</a></li>
+          <li><a href="#translation">Translation</a></li>
+        </ol>
+      </div>
+      <div id="toc2" class="container-right">
+        <h1  class="left">Association</h1>
+        <h2 class="right">Theme  Documentation</h2>
+        <div style="clear:both"></div>
+        <hr>
+        <p class="left prepend-top"> Created: 22.02.2017<br>
+          By: <a href="http://themnific.com/">Dannci &amp; Themnific</a><br>
+        </p>
+        <p class="right prepend-top"> Support*: <a href="https://dannci.freshdesk.com/support/solutions/articles/5000167124-support-policy">Dannci's Support Page</a><br>
+          <a href="http://themnific.com/">Our Portfolio</a> </p>
+        <div style="clear:both"></div>
+        <hr>
+        <div class="borderTop">
+          <div class="span-6 colborder prepend-1">
+            <h3 class="alt">Hello there...</h3>
+          </div>
+          <!-- end div .span-6 -->
+          <div class="span-12 last">
+            <p class="prepend-top append-0">Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to contact me via Support page. Thanks so much!</p>
+            <p>* Please note, that theme support does not include:</p>
+            <ul>
+              <li><strong>Customization and installation services</strong></li>
+              <li>Support for third party software and plug-ins</li>
+            </ul>
+            <p><a target="_blank" href="https://dannci.freshdesk.com/support/solutions/articles/5000167124-support-policy">Please read full support policy</a></p>
+          </div>
+        </div>
+        <!-- end div .borderTop -->
+        <hr>
+        <h3 id="htmlStructure">&nbsp;</h3>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <h3 id="cssFiles">&nbsp;</h3>
+        <h3 id="install">Theme Instalation  - <a href="#toc">top</a></h3>
+        <h6>Installation via WP Dashboard:</h6>
+        <ol>
+          <li>Unzip the main (downloaded) theme package – to get <strong>association.zip</strong> file,</li>
+          <li>Go to Appearance &gt;Themes,</li>
+          <li>click on “Add New” > and “Upload theme”,</li>
+          <li>click on ‘Browse’ button, find <strong>association.zip</strong> file on your computer and press 'Install Now',</li>
+          <li>Activate theme,</li>
+          <li><em>After theme activation go to Appearance &gt; Install Plugins, and install and <strong>activate Redux Framework plugin!</strong></em></li>
+          <li>Refresh admin page and 'Association - admin panel' button will appear; </li>
+          <li>Go to Association - admin panel (theme options) and setup theme.</li>
+        </ol>
+        <p>&nbsp;</p>
+        <h6>Installation via FTP:</h6>
+        <ol>
+          <li>Unzip the main (downloaded) theme package - twice - to get main theme folder: <strong>association</strong>,</li>
+          <li>Using FTP client (e.g. Filezilla) upload <strong>association</strong> folder into 'themes' folder in your WordPress installation ( YOUR_HOSTING_ROOT/YOUR_SUBDIRECTORY/wp-content/themes/” ),</li>
+          <li>Go to Appearance &gt;Themes, find Association theme and activate theme,</li>
+          <li><em>After theme activation go to Appearance &gt; Install Plugins, and install and <strong>activate Redux Framework plugin!</strong></em></li>
+          <li>Refresh page and 'Association - admin panel' button will appear; </li>
+          <li>Go to Association - admin panel (theme options) and setup theme.</li>
+        </ol>
+        <p><img src="images/00-dashboard.png"alt="img"></p>
+        <p>&nbsp;</p>
+        <div class="warning">
+          <p>You still need to install/activate other required or recommended plugins - you can do this by visiting <strong>Appearance » Install Plugins</strong> inside wp-admin.</p>
+        </div>
+        <h3 id="setup">Default Setup  - <a href="#toc">top</a></h3>
+        <p>1. <em>After theme activation go to Appearance &gt; Install Plugins, and install and <strong>activate Redux Framework plugin!</strong></em></p>
+        <p>2. Refresh page and 'Association - admin panel' button will appear;</p>
+        <p>3. Then go to Association - admin panel</p>
+        <p><img src="images/00-dashboard.png"alt="img"></p>
+        <p> and hit &quot;Save Changes&quot; button to set default style settings:</p>
+        <p><img src="images/00-save.png"alt="img"></p>
+        <p>You can change styling options  later.</p>
+        <p>&nbsp;</p>
+        <p>2. Following (or similar) message may be visible after theme activation:</p>
+        <p><img src="images/00-save2.png"alt="img"></p>
+        <p>Click on 'Begin activating plugins' link and install and activate 'Master City, 'Redux Framework' (if not installed yet) and 'Shortcode Ultimate' plugins.</p>
+        <p>You can install and activate these plugins in <strong>Appearance » Install Plugins</strong> too.</p>
+        <p>&nbsp;</p>
+        <p>4. IMPORTANT! It is possible that after theme activation are images wrongly cropped and look ugly! In this case use following plugin: <a href="http://wordpress.org/extend/plugins/regenerate-thumbnails/">http://wordpress.org/extend/plugins/regenerate-thumbnails/</a> to regenerate old thumbnails (from previous theme).<br/>
+          After plugin installation start regeneration in Tools > Regen. Thumbnails.
+          This process can take a while and you cannot close tab/window until regeneration is done. </p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <h3 id="homesetup">Homepage Setup  - <a href="#toc">top</a></h3>
+        <p>&nbsp;</p>
+        <ol>
+          <li>In 'Pages' section create new page &gt; name it 'Home' </li>
+          <li>Select '<strong>Builder</strong>' template for this page and save page:<br/>
+            <img src="images/hs-01.png" alt="img"></li>
+          <li>Go into Settings > Reading and  created 'Home' page set as Static page &gt; Front page,<br/>
+            <img src="images/hs-02.png" alt="img"></li>
+          <li>Empty homepage is created now! In next steps we'll create homepage content using 'Layout Creator'.</li>
+        </ol>
+        <h4 id="pagebuilder">Layout Creator</h4>
+        <p><strong>Important!</strong></p>
+        <div class="info">
+          <p> I recommend to create few classic blog posts, MC Slider, MC Services and MC City Staff custom posts before you start creating templates in Layout Creator. </p>
+          <p>Set 'featured images' for all your posts.</p>
+        </div>
+        
+        <p><img src="images/hs-03a.png" alt="img"></p>
+        <h6 id="h">Working in Layout Creator</h6>
+        <ol>
+          <li>Go to Apperance &gt; Layout Creator<br/>
+            <img src="images/hs-03.png" alt="img"></li>
+          <li>Create new 'template', name it e.g. 'Homepage content';</li>
+          <li>Using Drag &amp; Drop, drag  'Available Blocks' into template section.</li>
+          <li><em><strong>Start with 'Columns' blocks</strong>, these are important blocks to create basic page layout - skeleton:</em><br>
+            <img src="images/blocks-01.png" alt="img"><br/>
+            You can create few columns combination; e.g.:<br>
+            <img src="images/blocks-01a.png" alt="img"></li>
+          <li>'Column' blocks combination is an empty skeleton of the page and<br>
+            you can put other 'blocks' into  columns to manage page content:<br>
+            <br>
+            <img src="images/blocks-02.png" alt="img"></li>
+          <li><strong>Important!</strong><br/>
+            - <em>Don't use blocks marked as <strong>'Full Width'</strong> in 'columns'</em><br/>
+            -  after columns combination use 'Clear' block:<br/>
+            <img src="images/blocks-03.png" alt="img">
+          </li>
+          <li>Check out  '<a href="#blocksscreens">Blocks Screenshots</a>' chapter, in this chapter are front-end screenshots of partial layout creator blocks.</li>
+          <li>Using Drag &amp; Drop create own layout:<br/>
+            <img src="images/hs-04.png" alt="img"><br/>
+            
+          <div class="info">
+          Is Drag &amp; Drop interface miserable? :(<br/>
+          See <a target="_blank" href="http://themnific.com/?page_id=214">Tips &amp; Tricks</a> to working with Layout Creator as a pro.
+          </div>
+          </li>
+          <li>If you are finished, click on "Save Template" button!</li>
+          <li>Go to 'Home' page (created in previous steps) and using 'Add Template' button insert created 'layout creator' template:<br/>
+            <img src="images/hs-05.png" alt="img"><br/>
+            <img src="images/hs-06.png" alt="img"></li>
+          <li>Save 'Home' page! </li>
+        </ol>
+        <h4 id="blocksscreens">Blocks Screenshots</h4>
+        <ol>
+          <li><strong>News </strong> -  block displays latest or featured blog  posts (classic posts). Block can be used  inside wide column.<br/>
+          <img src="images/screenblocks-01.png" alt="img"></li>
+          
+          <li><strong>News: Minimal </strong> -  block displays latest or featured blog  posts (classic posts). <br/>
+          <img src="images/screenblocks-01c.png" alt="img"></li>
+          <li><strong>Slider (Full Width)</strong>  - block displays 'MC Slider' posts (custom posts). <br/><em>Block can be used only as a &quot;Full Width&quot; (don't use block inside a column block).</em>
+            <img src="images/screenblocks-01b.png" alt="img"></li>
+          <li><strong>Services</strong> -  block displays latest or featured 'MC Services custom posts. Block can be used  inside  column blocks or in container as a &quot;full width&quot;.<br/>
+            <img src="images/screenblocks-02.png" alt="img"></li>
+          <li><strong>Text &amp; Divider**</strong> - You can use block to create nice and easy divider.
+            Add title and text (into 'Content' field); set colors for text and background or set background image. Block can be used  inside both column blocks or in container.<br/>
+            <img src="images/screenblocks-05c.png" alt="img"><br/>
+            back-end srceenshot: 
+            <img src="images/screenblocks-05a.png" alt="img"><br/>
+            back-end srceenshot: <br/>
+          </li>
+          <li><strong>Text &amp; Divider - Full Width</strong>: <br/>
+            You can use block to create nice and easy divider. Add title and text (into 'Content' field); set colors for text and background or set bg image. <em>Block can be used only as a &quot;Full Width&quot; (don't use block inside a column block).</em><br/>
+            <br/>
+            <img src="images/screenblocks-05.png" alt="img"><br/>
+            back-end srceenshot: <br/>
+            <img src="images/screenblocks-05b.png" alt="img"></li>
+          <li>Both <strong> Text &amp; Divider</strong> blocks can output <strong>any shortcode</strong>. For example, you can output Events shortcode here:<br/>
+            <br/>
+            <img src="images/screenblocks-06.png" alt="img"><br/>
+            back-end srceenshot: <br/>
+          <img src="images/screenblocks-06b.png" alt="img"></li>
+          <br/>
+          <li><strong>Call To Action</strong> block - paste any text into it and set 'button' label and target URL (link)<br/>
+            <img src="images/screenblocks-11.png" alt="img"><br/>
+          </li>
+          <li><strong>Clear</strong> block - use this block to add additional (vertical) space between blocks. Here is screen shot from back-end (page builder)<br/>
+            <img src="images/screenblocks-10.png" alt="img"></li>
+        </ol>
+        <h4 id="blog">Blog Template</h4>
+        <ol>
+          <li>If you want to create 'blog' page, create empty page (Default template),</li>
+          <li>name it 'Blog' (or similar),</li>
+          <li> go to Settings > Reading and set this page as 'Post page'<br/>
+            <img src="images/hs-02b.png" alt="img"></li>
+          <li>If you want to use 'Blog' template on the front page use <strong>default setting</strong> in Settings > Reading<br/>
+            <img src="images/hs-02c.png" alt="img"></li>
+        </ol>
+        <h3 id="themesetup">Theme Setup - Admin panel  - <a href="#toc">top</a></h3>
+        <p><img src="images/00-dashboard.png"alt="img"></p>
+        <p>Theme comes with extensive options panel with functions divided to these sections:</p>
+        <p><img src="images/01-admin-menu.png" alt="img"></p>
+        <h6>General Settings:</h6>
+        <ol>
+          <li>Upload your Main logo image,</li>
+          <li>Add Site Tagline,</li>
+          <li>Upload &quot;header image&quot;</li>
+          <li>Enable/disable 'Uppercase' fonts.</li>
+        </ol>
+        <p><img src="images/general.png"alt="img"></p>
+        <p>&nbsp;</p>
+        <h6>Primary styling:</h6>
+        <ol>
+          <li>Select  font family with color, style and width of the font,</li>
+          <li>Choose colors for typographic elements: body,  containers (ghost color), text/links, hover, borders etc.,</li>
+          <li>Add/paste your own custom CSS code</li>
+        </ol>
+        <p><img src="images/styling.png" alt="img"></p>
+        <p>&nbsp;</p>
+        <h6>Header Styling &amp; Settings:</h6>
+        <ol>
+          <li>Select header layout (logo position),</li>
+          <li>Set  background color and color scheme for &quot;Topnav&quot; section,</li>
+          <li>Set typography for main menu,</li>
+          <li>Set color scheme for  header,</li>
+          <li>Set custom margins and width limitation for logo image.</li>
+          <li>Set top margin for main menu.</li>
+        </ol>
+        <p><img src="images/styling2.png" alt="img"></p>
+        <p>&nbsp;</p>
+        <h6>Footer  Styling:</h6>
+        <ol>
+          <li>Select font family with color, style and weight for footer,</li>
+          <li>Choose colors for typographic elements: footer background,  text, links,  hover, borders etc.,</li>
+        </ol>
+        <p><img src="images/styling3.png" alt="img"></p>
+        <p>&nbsp;</p>
+        <h6>Other Styling:</h6>
+        <ol>
+          <li>Set font styling for 'Meta' sections (date, category etc. post information)</li>
+          <li>Choose background color for elements (buttons, lines etc.),</li>
+          <li>Select text/link color for elements (buttons, lines etc.),</li>
+          <li>Set color scheme for image backgrounds.</li>
+        </ol>
+        <p><img src="images/styling4.png" alt="img"></p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <h6>Headings Typography:</h6>
+        <ol>
+          <li>Select Font-family for all headings (h1- h6) and 'post titles',</li>
+          <li>Select font weight for all headings (h1- h6) and 'post titles',</li>
+          <li>Select Font-size for all headings (h1- h6) and 'post titles',</li>
+          <li>Select font color for all headings (h1- h6) and 'post titles',</li>
+        </ol>
+        <p><img src="images/typo.png" alt="img"></p>
+        <p>&nbsp;</p>
+        <h6>Post Settings:</h6>
+        <ol>
+          <li>Turn On/Off partial post sections.</li>
+        </ol>
+        <p><img src="images/post-settings.png" alt="img"></p>
+        <h6>Social Networks Settings:</h6>
+        <ol>
+          <li>Enter the full URL of social network, your  profile or account (enter full URL: http:// or https:// including).</li>
+        </ol>
+        <p></p>
+        <p><img src="images/social.png" alt="img"></p>
+        <h6>Custom Footer:</h6>
+        <ol>
+          <li>Enable right custom footer and enter some text.</li>
+        </ol>
+        <p></p>
+        <p><img src="images/footer.png" alt="img"></p>
+        <h6>&nbsp;</h6>
+        <p>&nbsp;</p>
+        <h2>If you are finished click on &quot;Save changes&quot; button!</h2>
+        <h6>&nbsp;</h6>
+        <p>&nbsp;</p>
+        <p>&nbsp; </p>
+        <h3 id="templates">Custom Templates - <a href="#toc">top</a></h3>
+        <p>&nbsp;</p>
+        <ol>
+          <li>Create a page by going to Page &gt; Add New.</li>
+          <li>In Page Attributes section select custom page template (Builder,  Full Width page etc.)</li>
+          <li>Click the Publish button to publish your page.</li>
+        </ol>
+        <p>&nbsp;</p>
+        <h3 id="widgets">Custom Widgets - <a href="#toc">top</a></h3>
+        <p>Theme comes with few custom widgets (marked as &quot;Themnific&quot;). </p>
+        <p>Go to Appearance &gt; Widgets and setup your sidebar and footer widget areas. Widgets are very easy to setup. Just follow and set partial widgets fields.</p>
+        <p><img src="images/widgets.png" alt="img"></p>
+        <h6>Used Widgets</h6>
+        <p>Following widgets are used in theme demo:</p>
+        <p><img src="images/widgets2.png" alt="img"></p>
+        <p>As you can see, in theme demo are used  custom widgets which come with 3dr party plugins (Twitter, Events etc.). <br>
+          Please see 'Plugins' chapter for more info about these plugins.</p>
+        <p>&nbsp;</p>
+        <h3 id="images">Images - <a href="#toc">top</a></h3>
+        <p>IMPORTANT! It is possible that after theme activation are images wrongly cropped and look ugly!</p>
+        <p>In this case use this plugin: <a target="_blank" href="http://wordpress.org/extend/plugins/regenerate-thumbnails/">http://wordpress.org/extend/plugins/regenerate-thumbnails/</a> to regenerate old thumbnails from previous theme. <br/>
+          After plugin installation start regeneration in Tools > Regen. Thumbnails This process can take a while and you cannot close tab/window until regeneration is done. </p>
+        <h6>Featured Images:</h6>
+        <ol>
+          <li>Images  and thumbnails are generated automatically. To display thumbnails correctly upload images via WP interface using <strong> &quot;Use as featured image&quot;</strong> button</li>
+          <li>after image upload set featured image.</li>
+        </ol>
+        <p><img src="images/images-setup2.png" alt="img"></p>
+        <p><img src="images/images-setup.png" alt="img"></p>
+        <h6>Featured Images - Minimal Sizes</h6>
+        <ol>
+          <li>'Slider' block : 1600x620px;</li>
+          <li>Classic blog posts: 299x225px;</li>
+          <li>MC Services (custom posts): 353x197px.</li>
+        </ol>
+        <h6>Galleries: Native (grid) gallery</h6>
+        <ol>
+          <li>If you want to create post with gallery, you need to <strong><a href="http://premium.wpmudev.org/blog/wordpress-gallery/" target="_blank">create classic wp gallery</a></strong><br/>
+            <br/>
+            <img src="images/gallery-01.png" alt="doc"> </li>
+          <li>Classic wp gallery  has 'grid' layout (styling) with lightbox image preview (if 'link to media file' is selected).<br/>
+            <img src="images/gallery-02.png" alt="doc"></li>
+          <li>You can enable/create <strong>Tiled Gallery</strong> when you install <a href="https://wordpress.org/plugins/tiled-gallery-carousel-without-jetpack/" target="_blank">'Tiled Galleries Carousel Without Jetpack' plugin</a>:<br>
+          <img src="images/gallery-03.png" alt="doc"></li>
+        </ol>
+        <h3 id="formats">Post Settings &amp; Post Formats  - <a href="#toc">top</a></h3>
+        <h6>Post Settings:</h6>
+        <p>In post add/edit screen is located custom 'Themnific Post Options' tab. </p>
+        <p>You can setup &quot;formats&quot; (video, gallery etc.) and custom ads in this tab.</p>
+        <p><img src="images/post-settings-2.png" alt="doc"></p>
+        <p>- select post sidebar location,        </p>
+        <p>- disable featured image (applied only for 'Classic' image size)</p>
+        <p>&nbsp; </p>
+        <p>&nbsp; </p>
+        <p><strong>Theme comes with these posts formats (Format tab):</strong></p>
+        <p><img src="images/formats-01.png" alt="doc"></p>
+        <h6>Standard post</h6>
+        <p>Default (native) WordPress post.</p>
+        <h6>Video post</h6>
+        <p>Check 'Video' option in the Format tab and enter plain video link into Video URL field:</p>
+        <p><img src="images/formats-video.png" alt="img"></p>
+        <h6>Audio post</h6>
+        <p>Check 'Audio' post in the Format tab and paste Soundcloud URL into post content and save post...</p>
+        <p><img src="images/formats-audio.png" alt="img"></p>
+        <h6>Gallery post</h6>
+        <p>Check 'Gallery' post in the Format tab and create wp gallery (see: <a href="#images">images section</a>)<br/>
+        </p>
+        <h6>Link post</h6>
+        <p>Check 'Link' post in the Format tab and add any URL into Link field.</p>
+        <p><img src="images/formats-link.png" alt="img"></p>
+        <p>&nbsp;</p>
+        <ol>
+          <li>Ad Section: paste full URL of image banner and full URL of ad target<br/>
+            <img src="images/post-settings-3.png" alt="doc"></li>
+        </ol>
+        <p>&nbsp;</p>
+        <h3 id="customposts">Custom Posts  - <a href="#toc">top</a></h3>
+        
+        <p>&nbsp;</p>
+        <h6>Slider posts</h6>
+        <p>Association theme (+ installed Master City  plugin) comes with 'MC Slider' custom posts. Function is to create simple image slider:</p>
+        <p><img src="images/custom03.png" alt="img"></p>
+        <p>You can access and create these custom posts in main dashboard menu:</p>
+        <p><img src="images/custom04.png" alt="img"></p>
+        <p>&nbsp;</p>
+        <p><strong>Slider posts types are similar / work similar to classic posts. You can  set post title, add slide content, featured image and sort/list these posts into own categories.</strong></p>
+        <p><img src="images/custom05.png" alt="img"></p>
+        <p>&nbsp;</p>
+        <p>Usage is very simple, in Layout Creator use '<strong>Slider (Full Width)</strong>' block to display these custom posts.</p>
+        <p>&nbsp;</p>
+        
+        <p>&nbsp;</p>
+        <h6>Info posts</h6>
+        <p>Association theme (+ installed Master City  plugin) comes with 'MC Services' custom posts. Their function is to create simple &quot;image navigation / hub&quot;, like here:</p>
+        <p><img src="images/custom02.png" alt="img"></p>
+        <p>You can access and create these custom posts in main dashboard menu:</p>
+        <p><img src="images/custom01.png" alt="img"></p>
+        <p>&nbsp;</p>
+        <p><strong>Info posts types are similar / work similar to classic posts. You can  set post title, target URL (link), featured image and sort/list these posts into own categories.</strong></p>
+        <p>&nbsp;</p>
+        <p>Usage is very simple, in Layout Creator use '<strong>Info (Navigation) Posts</strong>' block to display these custom posts.</p>
+        <p>&nbsp;</p>
+        
+        
+        <p>&nbsp;</p>
+        <h6>City Staff posts</h6>
+        <p>Association theme (+ installed Master City  plugin) comes with 'MC City Staff' custom posts. Function is to create simple staff overview:</p>
+        <p><img src="images/custom06.png" alt="img"></p>
+        <p>You can access and create these custom posts in main dashboard menu:</p>
+        <p><img src="images/custom07.png" alt="img"></p>
+        <p>&nbsp;</p>
+        <p><strong>City Staff posts types are similar / work similar to classic posts. You can  set post title, add small plain text info into content, featured image and sort/list these posts into own categories.</strong></p>
+        <p>&nbsp;</p>
+        <p>Usage is very simple, in any page use dedicated shortcodes to display staff posts:</p>
+        <p><img src="images/custom08.png" alt="img"></p>
+        <p>Add shortcode in following format:</p>
+        <pre>[mc-staff category="XXX" posts="4" columns="2"]</pre>
+        <p>You need to replace XXX with 'category slug'; e.g.   [mc-staff category="city-council" posts="4" columns="2"] shortcode shows 4 latest posts listed in   'City Council' category in a 2 column layout.</p>
+        
+        
+        <h3 id="custom-menu">Custom Menu :  - <a href="#toc">top</a></h3>
+        <p>&nbsp;</p>
+        <p><strong>! Create own custom menus first! <a href="http://codex.wordpress.org/WordPress_Menu_User_Guide" target="_blank">Please see following tutorial</a> !</strong></p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+
+        <p>&nbsp;</p>
+        <p><br>
+        </p>
+        <h6>Custom menu (in sidebar)</h6>
+        <p> <img alt="" src="images/custom-menu-04.png"></p>
+        <p>1. Create another custom menu (in Appearance &gt; Menus) and add any pages / links into it.</p>
+        <p>2. go into Appearance &gt; Widgets and using 'Custom Menu' widget display this menu in Sidebar (Pages); (current page will be highlighted).</p>
+        <p> <img alt="" src="images/custom-menu-04b.png"></p>
+        <p>&nbsp;</p>
+        <h6>Colored Menu Item (on the right)</h6>
+        <p>1. Toggle 'Screen Options' on the top of the menu screen: <br>
+          <img alt="" src="images/custom-menu-03a.png">
+        </p>
+        <p>2. Enable 'CSS Classes' option:<br>
+          <img alt="" src="images/custom-menu-03b.png">
+        </p>
+        <p>3. Toggle any menu item and type <strong>special</strong> word into Css Classes field<br>
+          <img alt="" src="images/custom-menu-03c.png"></p>
+        <p>&nbsp;</p>
+        <h6>Menu Icons</h6>
+        <p>&nbsp;</p>
+        <p>1. Before (or after) menu label add this piece of code </p>
+        <pre>&lt;i class=&quot;fa XXX&quot;&gt;&lt;/i&gt;</pre>
+        <p>Enter full icon code - 'fa' class is required.</p>
+        <p> <img alt="" src="images/custom-menu-02.png"></p>
+        <p>2. For XXX you can set any icon name. You can find all icon names on <a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank">Font Awesome homepage</a>.</p>
+        <p>3. You can see how-to video <a href="http://www.youtube.com/watch?v=-mxtT2Tw0VE" target="_blank">here</a>. It is not tutorial for my theme but the process is the same.</p>
+        <h6>Font Awesome - Update (optional)</h6>
+        <p>1. Download latest <a href="http://fortawesome.github.com/Font-Awesome/" target="_blank">Font Awesome package.</a></p>
+        <p>2. In downloaded file is 'font' folder with 4 font files (.eot, .svg, .ttf, .woff)</p>
+        <p><img alt="" src="images/fonts01.png"></p>
+        <p><img alt="" src="images/fonts02.png"></p>
+        <p>3. Upload all these font files into 'fonts' folder (located in main theme folder) on your server.</p>
+        <p>4. Upload css files (font stylesheets) to 'styles' folder on your server.</p>
+        <p>&nbsp;</p>
+        <h3 id="shortcodes">Required Plugins  - <a href="#toc">top</a></h3>
+        <p> After theme activation will be following notice visible in wp dashboard:</p>
+        <p><img src="images/00-save2.png" alt="img"></p>
+        <p>Click on 'Begin activating plugin' link and <strong>install and activate</strong> Master Magazine, <a target="_blank" href="https://wordpress.org/plugins/redux-framework/">Redux Framework</a> plugin and <a target="_blank" href="https://wordpress.org/plugins/shortcodes-ultimate/">Shortcodes Ultimate</a> plugin.</p>
+        <p>&nbsp;</p>
+        <h6>Redux Framework</h6>
+        <p>After plugin activation is possible to change different theme options in theme admin panel</p>
+        <p><img src="images/00-dashboard.png" alt="img"></p>
+        <p>&nbsp;</p>
+        <h6>Master City</h6>
+        <p>1. Plugin also adds whole 'Layout Creator' functionality to this theme.</p>
+        <p>2. After plugin activation is possible to create MC Slider, MC Info and MC Staff mini-posts:</p>
+        <p><img src="images/hs-03a.png" alt="img"></p>
+        <p>&nbsp;</p>
+        <p>and output these mini-posts using using Layout Creator blocks. </p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <h6>Shortcodes Ultimate</h6>
+        <p> You can generate different shortcodes using 'Insert shortcode' button in all Post/Page screens:</p>
+        <p><img src="images/generator2.png" alt="img"></p>
+        <p>&nbsp;</p>
+        <p>After plugin activation will be visible following notice; <strong>you can ignore this message</strong>: </p>
+        <p><img src="images/generator3.png" alt="img"></p>
+        <p>&nbsp;</p>
+        <h3 id="plugins">Other Plugins:  - <a href="#toc">top</a></h3>
+        <p>&nbsp;</p>
+        <h6>Recent Tweets Widget</h6>
+        <p>Theme is compatible with <a target="_blank" href="https://wordpress.org/plugins/recent-tweets-widget/">Recent Tweets Widget plugin</a>. Plugin is used in demo site.</p>
+        <p>In search field (Plugins &gt; Add New) insert 'Recent Tweets Widget' and Install plugin.</p>
+        <p>Plugin widget can be set in Appearance &gt; Widegts:</p>
+        <p>Note!: You need to get "consumer and secret" codes for Themnific - Recent Tweets' widget:</p>
+        <ol>
+          <li>Go to <a target="_blank" href="https://dev.twitter.com/apps/">https://dev.twitter.com/apps/</a>new and log in, if necessary</li>
+          <li>Enter your Application Name, Description and your website address. You can leave the callback URL empty.</li>
+          <li>Accept the TOS, and solve the CAPTCHA.</li>
+          <li>Submit the form by clicking the Create your Twitter Application</li>
+          <li>Copy the consumer key (API key) and consumer secret from the screen into widget fields</li>
+        </ol>
+        <h6>Contact Form 7</h6>
+        <p>Plugin page: <a href="https://wordpress.org/plugins/contact-form-7/">Plugin Homepage</a></p>
+        <p>Into search field (in Plugins &gt; Add New) insert 'Contact Form 7' and Install this plugin</p>
+        <p>You can create own contact form(s) in main wp menu &gt; Contact. </p>
+        <p>You can display created 'contact form' on any page using shortcode:</p>
+        <p><img alt="" src="images/plug01.png"></p>
+        <p>In demo is used contact form with following custom markup: <a href="http://pastebin.com/jHT9bj3N">http://pastebin.com/jHT9bj3N</a></p>
+        <p>'Get Involved' page uses another contact form with this markup: <a href="http://pastebin.com/tL2M2PMQ" target="_blank">http://pastebin.com/tL2M2PMQ</a></p>
+        <p>Please read <a href="http://contactform7.com/docs/" target="_blank">plugin documetation</a> for more info about this very flexible plugin.</p>
+        <p>&nbsp;</p>
+        <h6>Tiled Galleries Carousel Without Jetpack</h6>
+        <p>In search field (Plugins &gt; Add New) insert 'Tiled Galleries Carousel Without Jetpack' and Install this plugin.</p>
+        <p>Tiled gallery  styling can be set in 'Add / Edit Gallery' screen directly:<img alt="" src="images/plug06.png"></p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <h6>AddToAny</h6>
+        <p>Plugin page: <a href="https://wordpress.org/plugins/add-to-any/">Plugin Homepage</a></p>
+        <p>Into search field (in Plugins &gt; Add New) insert 'AddToAny' and Install this plugin.</p>
+        <p>Plugin can be set in Settings &gt; Cocorico Social:</p>
+        <p><img alt="" src="images/plug03.png"></p>
+        <p>Theme is compatible with <a target="_blank" href="http://wordpress.org/plugins/simple-share-buttons-adder/">Simple Share Buttons Adder</a> too.</p>
+        
+<p>&nbsp;</p>
+        <h6>MailChimp for WordPress</h6>
+        <p>You can easily create newsletter subscribe form with 'MailChimp for WordPress' Plugin: <a href="https://wordpress.org/plugins/mailchimp-for-wp/">Plugin Homepage</a></p>
+        <p>Into search field (in Plugins > Add New) insert 'MailChimp for WordPress' and Install this plugin</p>
+        <p>Plugin can be set in Settings > Video Thumbnails:</p>
+        <p> <img alt="" src="images/plug05.png"></p>
+        <p>In demo is used subscribe form with following markup: <a href="http://pastebin.com/K5bGtauT">http://pastebin.com/K5bGtauT</a></p>
+        <p>&nbsp;</p>
+        
+        <p>&nbsp;</p>
+        <h6>Simple Event Planner</h6>
+        <p>You can easily create events with 'Simple Event Planner' Plugin: <a href="https://wordpress.org/plugins/simple-event-planner/">Plugin Homepage</a></p>
+        <p>In search field (Plugins > Add New) insert 'Simple Event Planner' and Install this plugin</p>
+        <p>a) Plugin can be set in Event Planner > Settings:        </p>
+        <p><img alt="" src="images/plug10.png"></p>
+                <p>b) In Event Panner &gt; Add New create new event post which work similar to classic posts: add title, text, featured image and fill event options (date/time/address etc.)</p>
+        
+
+<p><img alt="" src="images/plug11.png"></p>
+        <p>c) you can display created evets on any page using shortcodes:</p>
+        <p>&nbsp;</p>
+        <pre>
+        [event_listing events_layout="list"]
+        [event_listing events_layout="list" search="false"] 
+        
+        [event_listing events_layout="grid"]
+        [event_listing events_layout="grid" search="false"]
+        </pre>
+        
+<p>More info about plugin: <a href="https://wordpress.org/plugins/simple-event-planner/faq/" target="_blank">https://wordpress.org/plugins/simple-event-planner/faq/</a></p>
+
+
+        
+        <h3 id="xml">Demo Content (XML file)  - <a href="#toc">top</a></h3>
+        <p>&nbsp;</p>
+        <div class="warning">
+          <p>Make sure that <strong>Association</strong> theme is installed and activated; <br/>
+          and '<strong>Master City</strong>' and 'Contact Form 7' plugins are installed and activated before XML import!</p>
+          <p>If you want to import Events activate 'Simple Event Planner' plugin too.</p>
+        </div>
+        <p>&nbsp;</p>
+        <p>- In main theme package (downloaded from <a href="http://themeforest.net/downloads">http://themeforest.net/downloads</a>) is attached XML file. Unzip this XML file.</p>
+        <p>- Go to Tools > Import;  install and activate 'WordPress Importer' plugin, </p>
+        <p>- Find XML file on your computer and import XML file. </p>
+        <p>- <strong>Check "Download and import file attachments" option.</strong> </p>
+        <p>- XML file is bit bigger and sometimes (slow server etc.) needs to be imported more times (<em>until 'Have Fun' message is shown</em>).</p>
+        <p>&nbsp;</p>
+        <p><strong>After XML file import</strong>:</p>
+        <p>-  set 'Home' page (with 'Builder' template) as front page (in Settings &gt; Reading); </p>
+        <p>- edit  'Home' page and select 'Layout Creator' template you want to use on the front page (using 'Add Template' button),</p>
+        <p>- adjust/edit  'Layout Creator' template if you want (in Appearance &gt; Layout Creator)</p>
+        <p>- save imported custom menus for 'locations' (in Appearance &gt; Menus);</p>
+        <p>- set own color and typography schemes in Association admin panel.</p>
+        <p>- footer and sidebar widgets can be set in Appearance &gt; Widgets. In demo are used these widgets:</p>
+        <p><img src="images/widgets2.png" alt="img"></p>
+        
+        <p>&nbsp;</p>
+        
+        <p>&nbsp;</p>
+        <h6>Important! </h6>
+        <p><strong>Due licenses all imported images are for testing purposes only and cannot be used on your live website!!!</strong></p>
+        <p>You can download free photos for your commercial & personal works on sites like:</p>
+        <p>http://picjumbo.com/</p>
+        <p>http://pixabay.com/</p>
+        <p>https://unsplash.com/grid</p>
+        <p>&nbsp;</p>
+        <p> </p>
+
+        <h3 id="translation">Translation  - <a href="#toc">top</a></h3>
+        <p> This theme is translation/localization ready and comes with <strong>association.pot</strong> file. File is located in 'lang' folder. </p>
+        <ol>
+          <li>You need to use localized WordPress installation (core): <a href="http://codex.wordpress.org/WordPress_in_Your_Language">WordPress in Your Language</a>. <br/>
+            If not localization will be not successful.</li>
+          <li>Download <strong>poedit</strong> software <a href="http://www.poedit.net/download.php">here,</a></li>
+          <li>Install it and in this software translate association.pot file (line by line),</li>
+          <li>Once you have translated all the strings, you can save this as your .po file.
+            <p><strong>The filename of your .po / .mo file is crucial!</strong> Gettext uses the ISO 639   standard for language abbreviations and ISO 3166 for locales. If your   translation is written in deutsch for example, your file name   will look like de_DE.po. Capitalization is also important here. For a full list of language and country codes, check out these two links:</p>
+            <ul>
+              <li><a href="http://www.gnu.org/software/gettext/manual/gettext.html#Language-Codes" onClick="javascript:_gaq.push(['_trackEvent','outbound-article','www.gnu.org']);">Gettext language codes</a></li>
+              <li><a href="http://www.gnu.org/software/gettext/manual/gettext.html#Country-Codes" onClick="javascript:_gaq.push(['_trackEvent','outbound-article','www.gnu.org']);">Gettext country codes</a></li>
+            </ul>
+            <p>Once   you save, POEdit by default automatically creates a .mo file alongside   your .po file. Put these files into 'lang' folder.</p>
+          </li>
+          <li>Access your <strong>wp-config.php</strong> file found in your WordPress' root folder. Your file should already contain <strong>define('WPLANG', '');</strong> but if it does not, you can add it in. You simply need to add your language and locale code into the define. If you were to translate your theme into German, you would have this:<br/>
+            <pre> define('WPLANG', 'de_DE');</pre>
+          </li>
+        </ol>
+        <p>Your internationalization is complete!</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <hr/>
+        <p>Once again, thank you so much for purchasing this theme.</p>
+        <p><a href="#toc">Go To Table of Contents</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end div .container -->
+</body>
+</html>

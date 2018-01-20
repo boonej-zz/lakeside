@@ -1,0 +1,953 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in function
+#: association/functions/layout-blocks/ml-mp-services.php:1
+#: association/functions/layout-blocks/ml-mp-staff.php:1
+msgid "1 Columns"
+msgstr ""
+
+#. Text in function
+#: association/functions/layout-blocks/ml-mp-services.php:1
+#: association/functions/layout-blocks/ml-mp-staff.php:1
+msgid "2 Columns"
+msgstr ""
+
+#. Text in function
+#: association/functions/layout-blocks/ml-blog-minimal.php:1
+#: association/functions/layout-blocks/ml-mp-services.php:1
+#: association/functions/layout-blocks/ml-mp-staff.php:1
+msgid "3 Columns"
+msgstr ""
+
+#. Text in function
+#: association/functions/layout-blocks/ml-blog-minimal.php:1
+#: association/functions/layout-blocks/ml-mp-services.php:1
+#: association/functions/layout-blocks/ml-mp-staff.php:1
+msgid "4 Columns"
+msgstr ""
+
+#. Text in function
+#: association/functions/layout-blocks/ml-mp-services.php:1
+msgid "5 Columns"
+msgstr ""
+
+#. Text in function
+#: association/redux-framework/redux-themnific.php:1
+msgid "<p class=\"description\">This is a section created by adding a filter to the sections array. Can be used by child themes to add/remove sections from the options.</p>"
+msgstr ""
+
+#. Text in function
+#: association/functions/posttypes/post-metabox.php:1
+msgid "Ad Banner"
+msgstr ""
+
+#. Text in echo
+#: association/functions/widgets/widget-ads-300.php:61
+msgid "Ad Code:"
+msgstr ""
+
+#. Text in function
+#: association/functions/posttypes/post-metabox.php:1
+msgid "Ad Target URL"
+msgstr ""
+
+#. Text in echo
+#: association/functions/layout-blocks/ml-text-block.php:121
+#: association/functions/layout-blocks/ml-text-block-action.php:129
+#: association/functions/layout-blocks/ml-text-block-full.php:120
+msgid "Add margin at the bottom."
+msgstr ""
+
+#. Text in function
+#: association/functions/widgets/widget-facebook.php:1
+msgid "Adds support for Facebook Like Box."
+msgstr ""
+
+#. Text in function
+#: association/functions/posttypes/post-metabox.php:1
+msgid "Advertisement - override Post Static Ad (set in Admin panel)"
+msgstr ""
+
+#. Text in echo
+#: association/includes/uni-404-content.php:19
+msgid "All Blog Posts"
+msgstr ""
+
+#. Text in function
+#: association/class-tgm-plugin-activation.php:1
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#. Text in function
+#: association/functions.php:527
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#. Text in echo
+#: association/functions/widgets/widget-ads-300.php:74
+msgid "Alt text:"
+msgstr ""
+
+#. Text in echo
+#: association/archive.php:31
+msgid "Archive"
+msgstr ""
+
+#. Text in echo
+#: association/archive.php:36
+msgid "Author"
+msgstr ""
+
+#. Text in echo
+#: association/functions/widgets/widget-blogauthor.php:54
+msgid "Bio:"
+msgstr ""
+
+#. Text in function
+#: association/functions/layout-blocks/ml-mp-services.php:1
+#: association/functions/layout-blocks/ml-mp-staff.php:1
+msgid "Boxed"
+msgstr ""
+
+#. Text in echo
+#: association/functions/layout-blocks/ml-text-block-action.php:77
+msgid "Button - Link URL (link to any page)"
+msgstr ""
+
+#. Text in echo
+#: association/functions/layout-blocks/ml-text-block-action.php:70
+msgid "Button - Title (Label)"
+msgstr ""
+
+#. Text in function
+#: association/redux-framework/redux-themnific.php:155
+msgid "By %s"
+msgstr ""
+
+#. Text in function
+#: association/functions/layout-blocks/ml-text-block-action.php:1
+msgid "Call To Action (Full Width)"
+msgstr ""
+
+#. Text in echo
+#: association/includes/uni-404-content.php:11
+msgid "Categories"
+msgstr ""
+
+#. Text in echo
+#: association/functions/layout-blocks/ml-text-block.php:70
+#: association/functions/layout-blocks/ml-text-block-full.php:69
+msgid "Center text"
+msgstr ""
+
+#. Text in echo
+#: association/functions/layout-blocks/ml-widgets.php:40
+msgid "Choose widget section"
+msgstr ""
+
+#. Text in echo
+#: association/functions/widgets/widget-facebook.php:104
+msgid "Color Scheme:"
+msgstr ""
+
+#. Text in function
+#: association/functions/layout-blocks/ml-clear-block.php:1
+msgid "Colored"
+msgstr ""
+
+#. Text in function
+#: association/functions/layout-blocks/ml-clear-block.php:1
+msgid "Colored (No Margins)"
+msgstr ""
+
+#. Text in function
+#: association/functions.php:525
+msgid "Comments (%)"
+msgstr ""
+
+#. Text in function
+#: association/functions.php:525
+msgid "Comments (0)"
+msgstr ""
+
+#. Text in function
+#: association/functions.php:525
+msgid "Comments (1)"
+msgstr ""
+
+#. Text in echo
+#: association/comments.php:39
+msgid "Comments are closed."
+msgstr ""
+
+#. Text in echo
+#: association/functions/layout-blocks/ml-text-block.php:51
+#: association/functions/layout-blocks/ml-text-block-action.php:57
+#: association/functions/layout-blocks/ml-text-block-full.php:57
+msgid "Content"
+msgstr ""
+
+#. Text in echo
+#: association/redux-framework/redux-themnific.php:144
+#: association/redux-framework/redux-themnific.php:148
+msgid "Current theme preview"
+msgstr ""
+
+#. Text in function
+#: association/redux-framework/redux-themnific.php:1
+msgid "Customize &#8220;%s&#8221;"
+msgstr ""
+
+#. Text in function
+#: association/functions/layout-blocks/ml-mp-services.php:1
+#: association/functions/layout-blocks/ml-mp-staff.php:1
+msgid "Default"
+msgstr ""
+
+#. Text in function
+#: association/class-tgm-plugin-activation.php:1
+msgid "Dismiss this notice"
+msgstr ""
+
+#. Text in echo
+#: association/functions/layout-blocks/ml-text-block.php:56
+#: association/functions/layout-blocks/ml-text-block-action.php:62
+#: association/functions/layout-blocks/ml-text-block-full.php:62
+msgid "Do not create the paragraphs automatically. \"wpautop\" disable."
+msgstr ""
+
+#. Text in echo
+#: association/functions/layout-blocks/ml-flexslider-block.php:30
+#: association/functions/layout-blocks/ml-text-block-action.php:36
+#: association/functions/layout-blocks/ml-text-block-full.php:36
+msgid "Do not use this block inside \"column\" block"
+msgstr ""
+
+#. Text in echo
+#: association/functions/widgets/widget-facebook.php:94
+msgid "Facebook Page URL:"
+msgstr ""
+
+#. Text in function
+#: association/functions/layout-blocks/ml-flexslider-block.php:1
+msgid "Featured"
+msgstr ""
+
+#. Text in function
+#: association/functions/widgets/widget-featured.php:1
+#: association/functions/widgets/widget-tabs.php:1
+msgid "Featured posts widget."
+msgstr ""
+
+#. Text in echo
+#: association/functions/layout-blocks/ml-blog-classic.php:46
+#: association/functions/layout-blocks/ml-blog-minimal.php:51
+#: association/functions/layout-blocks/ml-flexslider-block.php:50
+#: association/functions/layout-blocks/ml-mp-services.php:61
+#: association/functions/layout-blocks/ml-mp-staff.php:60
+#: association/functions/widgets/widget-featured.php:108
+msgid "Filter by Category:"
+msgstr ""
+
+#. Text in function
+#: association/functions.php:527
+msgid "Footer 1"
+msgstr ""
+
+#. Text in function
+#: association/functions.php:527
+msgid "Footer 2"
+msgstr ""
+
+#. Text in function
+#: association/functions.php:527
+msgid "Footer 3"
+msgstr ""
+
+#. Text in function
+#: association/functions.php:527
+msgid "Footer Menu"
+msgstr ""
+
+#. Text in echo
+#: association/functions/layout-blocks/ml-flexslider-block.php:37
+msgid "For back-end purpose only, title is not visible on the front-end"
+msgstr ""
+
+#. Text in function
+#: association/functions.php:527
+msgid "Free 1"
+msgstr ""
+
+#. Text in function
+#: association/functions.php:527
+msgid "Free 2"
+msgstr ""
+
+#. Text in function
+#: association/functions.php:527
+msgid "Free 3"
+msgstr ""
+
+#. Text in function
+#: association/functions.php:527
+msgid "Free usage in Layout Creator"
+msgstr ""
+
+#. Text in echo
+#: association/functions/layout-blocks/ml-clear-block.php:52
+msgid "Height (optional)"
+msgstr ""
+
+#. Text in echo
+#: association/functions/widgets/widget-facebook.php:123
+msgid "Hide facebook header"
+msgstr ""
+
+#. Text in echo
+#: association/functions/layout-blocks/ml-text-block.php:98
+#: association/functions/layout-blocks/ml-text-block-action.php:106
+#: association/functions/layout-blocks/ml-text-block-full.php:97
+msgid "Image"
+msgstr ""
+
+#. Text in echo
+#: association/functions/widgets/widget-ads-300.php:66
+msgid "Image Url:"
+msgstr ""
+
+#. Text in echo
+#: association/functions/layout-blocks/ml-text-block.php:63
+msgid "Inner Padding"
+msgstr ""
+
+#. Text in function
+#: association/functions/posttypes/post-metabox.php:1
+msgid "Insert the URL you wish to link to"
+msgstr ""
+
+#. Text in function
+#: association/class-tgm-plugin-activation.php:1
+#: association/functions.php:527
+msgid "Install Plugins"
+msgstr ""
+
+#. Text in function
+#: association/class-tgm-plugin-activation.php:1
+#: association/functions.php:527
+msgid "Install Required Plugins"
+msgstr ""
+
+#. Text in function
+#: association/class-tgm-plugin-activation.php:1
+#: association/functions.php:527
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. Text in function
+#: association/functions/layout-blocks/ml-flexslider-block.php:1
+#: association/functions/widgets/widget-tabs.php:40
+msgid "Latest"
+msgstr ""
+
+#. Text in function
+#: association/functions/posttypes/post-metabox.php:1
+msgid "Link"
+msgstr ""
+
+#. Text in echo
+#: association/functions/widgets/widget-ads-300.php:70
+msgid "Link URL:"
+msgstr ""
+
+#. Text in function
+#: association/functions.php:527
+msgid "Main Menu"
+msgstr ""
+
+#. Text in function
+#: association/functions/layout-blocks/ml-flexslider-block.php:1
+msgid "Main Slider (Full Width)"
+msgstr ""
+
+#. Text in function
+#: association/functions.php:527
+msgid "Master City"
+msgstr ""
+
+#. Text in function
+#: association/functions/layout-blocks/ml-mp-services.php:1
+msgid "Modern"
+msgstr ""
+
+#. Text in echo
+#: association/functions/layout-blocks/ml-blog-classic.php:67
+msgid "More Posts - Link Label (optional)"
+msgstr ""
+
+#. Text in echo
+#: association/functions/layout-blocks/ml-blog-minimal.php:72
+msgid "More Posts - Link Title (optional)"
+msgstr ""
+
+#. Text in echo
+#: association/functions/layout-blocks/ml-blog-classic.php:74
+#: association/functions/layout-blocks/ml-blog-minimal.php:79
+msgid "More Posts - URL to archive (optional)"
+msgstr ""
+
+#. Text in function
+#: association/comments.php:28
+msgid "Newer Comments"
+msgstr ""
+
+#. Text in echo
+#: association/index.php:14
+msgid "News"
+msgstr ""
+
+#. Text in function
+#: association/functions/layout-blocks/ml-blog-minimal.php:1
+msgid "News: Minimal"
+msgstr ""
+
+#. Text in echo
+#: association/includes/mag-nextprev.php:33
+msgid "Next Story"
+msgstr ""
+
+#. Text in function
+#: association/class-tgm-plugin-activation.php:1
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. Text in echo
+#: association/404.php:14
+msgid "Nothing found here"
+msgstr ""
+
+#. Text in echo
+#: association/functions/layout-blocks/ml-blog-classic.php:60
+#: association/functions/layout-blocks/ml-blog-minimal.php:65
+#: association/functions/layout-blocks/ml-flexslider-block.php:68
+#: association/functions/layout-blocks/ml-mp-services.php:102
+#: association/functions/layout-blocks/ml-mp-staff.php:101
+#: association/functions/widgets/widget-featured.php:119
+#: association/functions/widgets/widget-tabs.php:104
+msgid "Number of posts:"
+msgstr ""
+
+#. Text in echo
+#: association/functions/layout-blocks/ml-blog-classic.php:103
+msgid "Offset posts"
+msgstr ""
+
+#. Text in echo
+#: association/functions/widgets/widget-featured.php:124
+msgid "Offset posts:"
+msgstr ""
+
+#. Text in function
+#: association/comments.php:27
+msgid "Older Comments"
+msgstr ""
+
+#. Text in function
+#: association/functions/layout-blocks/ml-blog-minimal.php:1
+#: association/functions/layout-blocks/ml-text-block.php:1
+#: association/functions/layout-blocks/ml-text-block-action.php:1
+#: association/functions/layout-blocks/ml-text-block-full.php:1
+msgid "Optional Subtitle"
+msgstr ""
+
+#. Text in function
+#: association/functions/posttypes/post-metabox.php:1
+msgid "Optional usage"
+msgstr ""
+
+#. Text in echo
+#: association/includes/uni-404-content.php:3
+msgid "Pages"
+msgstr ""
+
+#. Text in function
+#: association/page.php:68
+#: association/single-content.php:53
+#: association/template-fullwidth.php:64
+msgid "Pages:"
+msgstr ""
+
+#. Text in function
+#: association/functions/posttypes/post-metabox.php:1
+msgid "Paste plain video URL (YouTube or Vimeo); e.g. http://vimeo.com/115014610  "
+msgstr ""
+
+#. Text in function
+#: association/functions/posttypes/post-metabox.php:1
+msgid "Paste target URL"
+msgstr ""
+
+#. Text in echo
+#: association/404.php:32
+#: association/search.php:50
+msgid "Perhaps You will find something interesting from these lists..."
+msgstr ""
+
+#. Text in echo
+#: association/functions/layout-blocks/ml-blog-classic.php:85
+#: association/functions/layout-blocks/ml-blog-minimal.php:90
+#: association/functions/layout-blocks/ml-mp-services.php:111
+#: association/functions/layout-blocks/ml-mp-staff.php:110
+#: association/functions/layout-blocks/ml-text-block.php:79
+#: association/functions/layout-blocks/ml-text-block-action.php:87
+#: association/functions/layout-blocks/ml-text-block-full.php:78
+msgid "Pick a background color"
+msgstr ""
+
+#. Text in echo
+#: association/functions/layout-blocks/ml-clear-block.php:46
+msgid "Pick a horizontal line"
+msgstr ""
+
+#. Text in echo
+#: association/functions/layout-blocks/ml-clear-block.php:58
+msgid "Pick a line color"
+msgstr ""
+
+#. Text in echo
+#: association/functions/layout-blocks/ml-blog-classic.php:93
+#: association/functions/layout-blocks/ml-blog-minimal.php:98
+#: association/functions/layout-blocks/ml-mp-services.php:119
+#: association/functions/layout-blocks/ml-mp-staff.php:118
+#: association/functions/layout-blocks/ml-text-block.php:87
+#: association/functions/layout-blocks/ml-text-block-action.php:95
+#: association/functions/layout-blocks/ml-text-block-full.php:86
+msgid "Pick a link & text color"
+msgstr ""
+
+#. Text in echo
+#: association/functions/layout-blocks/ml-flexslider-block.php:44
+msgid "Pick a query type (Latest vs. Featured)"
+msgstr ""
+
+#. Text in echo
+#: association/functions/layout-blocks/ml-mp-services.php:94
+#: association/functions/layout-blocks/ml-mp-staff.php:93
+msgid "Pick number of columns"
+msgstr ""
+
+#. Text in function
+#: association/class-tgm-plugin-activation.php:1
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#. Text in function
+#: association/class-tgm-plugin-activation.php:1
+#: association/functions.php:527
+msgid "Plugin activated successfully."
+msgstr ""
+
+#. Text in function
+#: association/class-tgm-plugin-activation.php:1
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. Text in echo
+#: association/functions/widgets/widget-tabs.php:39
+msgid "Popular"
+msgstr ""
+
+#. Text in function
+#: association/functions/posttypes/post-metabox.php:1
+msgid "Post Formats"
+msgstr ""
+
+#. Text in function
+#: association/functions/posttypes/post-metabox.php:1
+msgid "Post sidebar"
+msgstr ""
+
+#. Text in echo
+#: association/includes/mag-nextprev.php:13
+msgid "Previous Story"
+msgstr ""
+
+#. Text in echo
+#: association/functions/widgets/widget-blogauthor.php:62
+msgid "Read More Text (optional):"
+msgstr ""
+
+#. Text in echo
+#: association/functions/widgets/widget-blogauthor.php:66
+msgid "Read More URL (optional):"
+msgstr ""
+
+#. Text in function
+#: association/functions/layout-blocks/ml-blog-minimal.php:1
+msgid "Recent Posts"
+msgstr ""
+
+#. Text in function
+#: association/functions.php:527
+msgid "Redux Framework"
+msgstr ""
+
+#. Text in echo
+#: association/includes/mag-relatedposts.php:1
+msgid "Related Posts"
+msgstr ""
+
+#. Text in function
+#: association/class-tgm-plugin-activation.php:1
+#: association/functions.php:527
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#. Text in function
+#: association/class-tgm-plugin-activation.php:1
+msgid "Return to the Dashboard"
+msgstr ""
+
+#. Text in echo
+#: association/search.php:15
+msgid "Search Results"
+msgstr ""
+
+#. Text in echo
+#: association/header.php:34
+msgid "Search The Site"
+msgstr ""
+
+#. Text in echo
+#: association/searchform.php:2
+msgid "Search..."
+msgstr ""
+
+#. Text in function
+#: association/redux-framework/redux-themnific.php:1
+msgid "Section via hook"
+msgstr ""
+
+#. Text in echo
+#: association/functions/layout-blocks/ml-mp-services.php:80
+#: association/functions/layout-blocks/ml-mp-staff.php:79
+msgid "Select MP type"
+msgstr ""
+
+#. Text in echo
+#: association/functions/layout-blocks/ml-mp-services.php:87
+#: association/functions/layout-blocks/ml-mp-staff.php:86
+msgid "Select layout"
+msgstr ""
+
+#. Text in function
+#: association/functions/layout-blocks/ml-mp-services.php:1
+msgid "Services"
+msgstr ""
+
+#. Text in function
+#: association/functions.php:527
+msgid "Shop Sidebar"
+msgstr ""
+
+#. Text in function
+#: association/functions.php:527
+msgid "Shortcodes Ultimate"
+msgstr ""
+
+#. Text in echo
+#: association/functions/widgets/widget-facebook.php:113
+msgid "Show faces"
+msgstr ""
+
+#. Text in function
+#: association/functions/posttypes/post-metabox.php:1
+msgid "Show featured image in Single post"
+msgstr ""
+
+#. Text in echo
+#: association/functions/widgets/widget-facebook.php:118
+msgid "Show stream"
+msgstr ""
+
+#. Text in function
+#: association/functions.php:527
+msgid "Sidebar (Blog)"
+msgstr ""
+
+#. Text in function
+#: association/functions.php:527
+msgid "Sidebar (Pages)"
+msgstr ""
+
+#. Text in function
+#: association/functions.php:527
+msgid "Sidebar widget section (displayed on pages)"
+msgstr ""
+
+#. Text in function
+#: association/functions.php:527
+msgid "Sidebar widget section (displayed on posts / blog)"
+msgstr ""
+
+#. Text in function
+#: association/functions.php:527
+msgid "Sidebar widget section (displayed on shop pages)"
+msgstr ""
+
+#. Text in function
+#: association/functions/posttypes/post-metabox.php:1
+msgid "Sidebar/Featured Image Options"
+msgstr ""
+
+#. Text in function
+#: association/functions/layout-blocks/ml-mp-staff.php:1
+msgid "Simple"
+msgstr ""
+
+#. Text in function
+#: association/class-tgm-plugin-activation.php:1
+#: association/functions.php:527
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. Text in echo
+#: association/page.php:85
+msgid "Sorry, no posts matched your criteria"
+msgstr ""
+
+#. Text in echo
+#: association/search.php:46
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#. Text in function
+#: association/functions/layout-blocks/ml-mp-staff.php:1
+msgid "Staff"
+msgstr ""
+
+#. Text in echo
+#: association/functions/layout-blocks/ml-mp-staff.php:54
+msgid "Subitle (optional)"
+msgstr ""
+
+#. Text in echo
+#: association/functions/layout-blocks/ml-blog-classic.php:40
+#: association/functions/layout-blocks/ml-blog-minimal.php:45
+#: association/functions/layout-blocks/ml-mp-services.php:55
+#: association/functions/layout-blocks/ml-text-block.php:44
+#: association/functions/layout-blocks/ml-text-block-action.php:50
+#: association/functions/layout-blocks/ml-text-block-full.php:50
+msgid "Subtitle (optional)"
+msgstr ""
+
+#. Text in echo
+#: association/archive.php:41
+msgid "Tag Archive"
+msgstr ""
+
+#. Text in function
+#: association/redux-framework/redux-themnific.php:157
+msgid "Tags"
+msgstr ""
+
+#. Text in function
+#: association/functions/layout-blocks/ml-text-block.php:1
+msgid "Text & Divider**"
+msgstr ""
+
+#. Text in function
+#: association/functions/layout-blocks/ml-text-block-full.php:1
+msgid "Text & Divider** (Full Width)"
+msgstr ""
+
+#. Text in function
+#: association/class-tgm-plugin-activation.php:1
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#. Text in function
+#: association/functions/widgets/widget-ads-300.php:1
+msgid "Themnific - Ads Widget 300px/Free"
+msgstr ""
+
+#. Text in function
+#: association/functions/widgets/widget-blogauthor.php:1
+msgid "Themnific - Blog Author Info"
+msgstr ""
+
+#. Text in function
+#: association/functions/widgets/widget-facebook.php:1
+msgid "Themnific - Facebook Box"
+msgstr ""
+
+#. Text in function
+#: association/functions/widgets/widget-featured.php:1
+msgid "Themnific - Featured"
+msgstr ""
+
+#. Text in function
+#: association/functions/widgets/widget-social.php:1
+msgid "Themnific - Social Networks"
+msgstr ""
+
+#. Text in function
+#: association/functions/widgets/widget-tabs.php:1
+msgid "Themnific - Tabs"
+msgstr ""
+
+#. Text in function
+#: association/functions/posttypes/post-metabox.php:1
+msgid "Themnific Post Options"
+msgstr ""
+
+#. Text in function
+#: association/class-tgm-plugin-activation.php:1
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#. Text in function
+#: association/redux-framework/redux-themnific.php:160
+msgid "This <a href=\"%1$s\">child theme</a> requires its parent theme, %2$s."
+msgstr ""
+
+#. Text in echo
+#: association/functions/layout-blocks/ml-blog-minimal.php:32
+msgid "This block is not suitable for \"Narrow Column\" block"
+msgstr ""
+
+#. Text in function
+#: association/functions/widgets/widget-social.php:1
+msgid "This is Social Networks widget."
+msgstr ""
+
+#. Text in function
+#: association/functions/widgets/widget-blogauthor.php:1
+msgid "This is a Blog Author Info widget."
+msgstr ""
+
+#. Text in function
+#: association/class-tgm-plugin-activation.php:1
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#. Text in echo
+#: association/functions/layout-blocks/ml-blog-classic.php:33
+#: association/functions/layout-blocks/ml-blog-minimal.php:38
+#: association/functions/layout-blocks/ml-flexslider-block.php:36
+#: association/functions/layout-blocks/ml-mp-services.php:48
+#: association/functions/layout-blocks/ml-mp-staff.php:47
+#: association/functions/layout-blocks/ml-text-block.php:37
+#: association/functions/layout-blocks/ml-text-block-action.php:43
+#: association/functions/layout-blocks/ml-text-block-full.php:43
+#: association/functions/layout-blocks/ml-widgets.php:34
+msgid "Title (optional)"
+msgstr ""
+
+#. Text in echo
+#: association/functions/widgets/widget-ads-300.php:57
+msgid "Title (optional):"
+msgstr ""
+
+#. Text in echo
+#: association/functions/widgets/widget-blogauthor.php:50
+#: association/functions/widgets/widget-facebook.php:89
+#: association/functions/widgets/widget-featured.php:103
+#: association/functions/widgets/widget-social.php:36
+msgid "Title:"
+msgstr ""
+
+#. Text in function
+#: association/functions/layout-blocks/ml-clear-block.php:1
+msgid "Trasparent"
+msgstr ""
+
+#. Text in function
+#: association/class-tgm-plugin-activation.php:1
+msgid "Update Required"
+msgstr ""
+
+#. Text in function
+#: association/class-tgm-plugin-activation.php:1
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#. Text in echo
+#: association/functions/layout-blocks/ml-clear-block.php:42
+msgid "Use this block to clear the floats between two or more separate blocks vertically."
+msgstr ""
+
+#. Text in function
+#: association/functions/widgets/widget-ads-300.php:1
+msgid "Use this widget to add Ad as a widget."
+msgstr ""
+
+#. Text in function
+#: association/redux-framework/redux-themnific.php:156
+msgid "Version %s"
+msgstr ""
+
+#. Text in echo
+#: association/functions/layout-blocks/ml-blog-classic.php:112
+#: association/functions/layout-blocks/ml-blog-minimal.php:117
+#: association/functions/layout-blocks/ml-mp-services.php:131
+#: association/functions/layout-blocks/ml-mp-staff.php:129
+#: association/functions/layout-blocks/ml-text-block.php:109
+#: association/functions/layout-blocks/ml-text-block-action.php:117
+#: association/functions/layout-blocks/ml-text-block-full.php:108
+msgid "Vertical Padding"
+msgstr ""
+
+#. Text in function
+#: association/functions/posttypes/post-metabox.php:1
+msgid "Video URL"
+msgstr ""
+
+#. Text in function
+#: association/functions.php:527
+msgid "Views"
+msgstr ""
+
+#. Text in function
+#: association/functions.php:527
+msgid "Widget section in footer - center"
+msgstr ""
+
+#. Text in function
+#: association/functions.php:527
+msgid "Widget section in footer - left"
+msgstr ""
+
+#. Text in function
+#: association/functions/layout-blocks/ml-widgets.php:1
+msgid "Widgets (for Narrow Column)"
+msgstr ""
+
+#. Text in echo
+#: association/functions/widgets/widget-facebook.php:99
+msgid "Width:"
+msgstr ""
+
+#. Text in echo
+#: association/includes/mag-authorinfo.php:6
+#: association/post-types/blog-classic.php:49
+msgid "Written by:"
+msgstr ""
+
+#. Text in function
+#: association/functions/posttypes/post-metabox.php:1
+msgid "You can add 728px wide image here - paste URL of the image"
+msgstr ""
+
+#. Text in echo
+#: association/functions/widgets/widget-blogauthor.php:58
+msgid "Your Image URL"
+msgstr ""
+
+#. Text in function
+#: association/redux-framework/redux-themnific.php:160
+msgid "http://codex.wordpress.org/Child_Themes"
+msgstr ""
