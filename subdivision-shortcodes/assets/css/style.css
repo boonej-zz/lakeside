@@ -1,0 +1,28 @@
+.snippet-box {
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  top: 0;
+}
+
+.snippet-box h3 {
+  font-size: 1.5em !important;
+  width: 100%;
+  margin: 0;
+  padding: 8px;
+  border-bottom: 1px solid #666;
+  background-color: #eee;
+}
+
+.snippet-box p {
+  padding: 1em 8px 8px 8px;
+  margin: 1em 0;
+  font-size: 18px !important;
+  line-height: 1.5 !important;
+  min-height: initial !important;
+  text-align: left;
+}
+
+.snippet-box a.btn.btn-primary {
+  margin: 0 auto 8px;
+}

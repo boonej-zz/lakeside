@@ -1,0 +1,113 @@
+/*
+ Theme Name:   Lakeside Subdivision
+ Theme URI:    http://example.com/hestia-child/
+ Description:  Lakeside Subdivision Theme
+ Author:       Jonathan Boone
+ Author URI:   http://example.com
+ Template:     hestia
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  lakeside
+*/
+
+div.blank article.section.section-text {
+  margin: 0;
+  padding-top: 0;
+}
+
+header.header {
+  padding-top: 60px;
+}
+
+.navbar.navbar-transparent {
+  color: #555;
+  background-color: #fff;
+  -webkit-transition: none;
+  transition: none;
+  -webkit-box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar.navbar-transparent > #geodir-wrapper {
+  padding-top: 10px;
+}
+
+.geodir_category_list_view li .geodir-addinfo {
+  width: 30%;
+  margin-top: .5em;
+}
+
+
+h3.geodir-entry-title {
+	font-size: 22px;
+	margin-bottom: 0 !important;
+}
+
+.geodir-entry-content, .geodir-entry-content p {
+	font-size: 18px !important;
+}
+
+.geodir-bubble_desc h4 {
+	font-size: 18px;
+}
+
+
+.geodir_Star {
+  display: none;
+}
+
+.geodir-bubble-meta-bottom .geodir-bubble-reviews {
+  display: none;
+}
+
+.geodir-search input.search_text {
+  display: none;
+}
+
+.geodir-search input.snear {
+  width: 70%;
+}
+
+.geodir-search input.geodir_submit_search {
+  width: 24%;
+}
+
+.geodir-search.form-group {
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.geodir-tabs #reviewsTab, .geodir-tabs #related_listingTab, .geodir-tabs #post_profileTab {
+  display: none;
+}
+
+#geodir-wrapper {
+  max-width: 100%;
+}
+
+@media (min-width: 1200px) {
+#geodir-wrapper {
+    width: 1170px;
+}
+}
+@media (min-width: 992px) {
+#geodir-wrapper {
+    width: 970px;
+}
+}
+
+@media (min-width: 768px) {
+#geodir-wrapper {
+    width: 750px;
+}
+}
+
+#geodir-wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #fff;
+}
