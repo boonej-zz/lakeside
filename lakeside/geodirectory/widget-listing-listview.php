@@ -134,8 +134,7 @@ if ($gd_session->get('gd_listing_view') && !isset($before_widget)) {
                                     $lot_city = geodir_get_post_meta( $post_ID, 'post_city', true );
                                     $lot_state = geodir_get_post_meta( $post_ID, 'post_region', true );
                                     $lot_zip = geodir_get_post_meta( $post_ID, 'post_zip', true );
-                                    $lot_phone = geodir_get_post_meta( $post_ID, 'geodir_contact', true );
-                                    $lot_children = geodir_get_post_meta( $post_ID, 'geodir_children', true );
+
                                     ?>
                                     <p class="address">
                                       Lot <?php echo $lot_number; ?><br />
@@ -192,9 +191,7 @@ if ($gd_session->get('gd_listing_view') && !isset($before_widget)) {
                                  */
                                 // do_action( 'geodir_after_favorite_html', $post->ID, 'widget' );
                                 ?>
-                                <strong>Phone: </strong><br /><?php echo $lot_phone; ?><br />
-                                <strong>Children</strong><br />
-                                <?php echo $lot_children; ?>
+                                <?php include( 'listing-sidebar.php' );?>
                               <?php
 
 
